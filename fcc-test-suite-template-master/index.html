@@ -7,7 +7,140 @@
   </head>
 
   <body>
-    <h1>Hello World!</h1>
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+      <!-- 
+      
+      Hello Camper!
+      
+      For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+      
+      - The freeCodeCamp Team 
+      
+      -->
+      <!DOCTYPE html>
+      <html>
+          <head>
+              <title>
+                  Tribute Page
+              </title>
+             <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+              <style>
+                  #main {
+                      background-color: rgb(171, 177, 177);
+                      border-radius: 2px;
+                      font-family: Arial, sans-serif;
+                      margin: 40px;
+                      padding-bottom: 15px;
+                      padding-top: 5px;
+                      padding-left: 20px;
+                      padding-right: 20px;
+                      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+                  }
+                  #title {
+                      text-align: center;
+                      font-size: 2.5rem;
+                      color: rgb(71, 70, 70);
+                  }  
+                  hr {
+                      border: 0px;
+                      height: 1px;
+                      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+                  }
+                         
+                  p {
+                     text-align: center;
+                     font-size: 1.4em;
+                     color: rgb(71, 70, 70);
+                 }
+                 #img-div{
+                     width: 100%;
+                     background-color: whitesmoke;
+                     margin-top: 20px;
+                     border-radius: 2px;
+      
+                 }
+                 #image {
+                     max-width: 100%;
+                     display: block;
+                     height: auto;
+                     margin: auto;
+      
+                 }  
+                 #img-caption {
+                     margin: 15px;
+                     padding-bottom: 15px;
+                     text-align: center;
+                     align-self: stretch;
+                     color: rgb(71, 70, 70);
+                 }
+                 
+                 #tribute-info {
+                     text-align: center;
+                     color: rgb(71, 70, 70);
+                     font-size: 1em;
+                     padding: 20px;
+                 }
+                 ul{
+                     text-align: left;
+                     padding-top: 10px;
+                 }
+                 li{
+                     margin: 10px;
+                     line-height: 1.3em;
+                  }
+                 
+                #tribute-link {
+                  color: rgb(71, 70, 70);
+                }
+                #tribute-link:hover {
+                  color: green;
+                }
+              </style>
+          </head>
+          
+          <body>
+              <div id="main">
+                  <h1 id="title">Nelson Rolihlahla Mandela</h1>
+                  <hr>
+                  <p><q>He who shakes the branch of the tree</q></p>
+                  <div id="img-div">
+                      <img src="https://i.huffpost.com/gen/1500890/thumbs/o-NELSON-MANDELA-ARTWORK-900.jpg?6" alt="" id="image">
+      
+                      <div id="img-caption">A sand sculpture in tribute to former South African president Nelson Mandela, made at the Golden Sea Beach in Puri <br>(Sand Artist: Sudarsan Pattnaik).
+                      </div>
+                      
+                  </div>
+                  
+                  <div id="tribute-info">
+                      <h3>The Life and Legacy of Nelson Mandela: <strong>1918-2013</strong></h3>
+                      <hr>
+                      <ul>
+                          <li><strong>1918</strong> - Mr. Mandela is born in Mvezo, a tiny village in the Transkei, a former British protectorate in the south</li>
+                          <li><strong>1938</strong> - Mr. Mandela is admitted to the University of Fort Hare, a black institution. Two years later he will be expelled for leading a student protest</li>
+                          <li><strong>1944</strong> - Mr. Mandela marries Evelyn Ntoko Mase. The couple will have four children, but Mr. Mandela's political activities will put a strain on the relationship. The couple will divorce in 1958</li>
+                          <li><strong>1944</strong> - Mr. Mandela and other activists form the African National Congress Youth League after becoming disenchanted with the cautious approach of the older members of the A.N.C. The league's formation marks the shift of the congress to a mass movement. But its manifesto, so charged with pan-African nationalism, offends some non-black sympathizers</li>
+                          <li><strong>1952</strong> - Mr. Mandela and Oliver Tambo open South Africa’s first black law practice. </li>
+                          <li><strong>Dec. 5, 1956</strong> - Mr. Mandela is arrested at his home and charged with treason, along with 155 others who called for a nonracial state in South Africa</li>
+                          <li><strong>March 21, 1960</strong> - The police fire on a demonstration in Sharpeville, killing 69 people and wounding 181. After the shooting, the South African government bans black political groups and gatherings, and arrests thousands. The A.N.C. is among the banned groups. Its members go underground and begin planning a campaign of direct attacks on the apartheid government</li>
+                          <li><strong>Dec. 16, 1961</strong> - Mr. Mandela and other A.N.C. leaders form a military wing called Umkhonto we Sizwe, or Spear of the Nation. Mr. Mandela becomes the first commander in chief of the guerrilla army. He will train to fight, work to obtain weapons for the group, and come to be known as the Black Pimpernel, but he will never see combat</li>
+                          <li><strong>June 12, 1964</strong> - Mr. Mandela and seven others are convicted and sentenced to life in prison. Mr. Mandela is sent to Robben Island prison, seven miles off the coast of Cape Town. He will spend the next 18 years there </li>
+                          <li><strong>March 28, 1982</strong> - Mr. Mandela and four other A.N.C. leaders are transferred from Robben Island to Pollsmoor Prison in the suburbs of Cape Town. While many believe the move is intended to lessen the influence of the famous prisoners, government officials later say they wanted a way to open a discreet line of communication with the men</li>
+                          <li><strong>July 5, 1989</strong> - Mr. Mandela meets informally with Mr. Botha at the presidential office in Cape Town. It is the first publicly acknowledged meeting between Mr. Mandela and a government official outside prison, and leads to speculation that he will soon be released. </li>
+                          <li><strong>Feb. 11, 1990</strong> - Mr. Mandela, now 71, is freed without conditions, ending 27 and a half years of imprisonment. For Mr. de Klerk, enlisting Mr. Mandela in negotiations over a new constitution seems to be the surest way to achieve his stated goal: to end political domination by the white minority without replacing it with domination by the black majority</li>
+                          <li><strong>Oct. 15, 1993</strong> - Mr. Mandela and Mr. de Klerk share the Nobel Peace Prize. The two men accept the award with the strained grace that has characterized their relationship, and Mr. Mandela declines to repeat his much-quoted assessment of Mr. de Klerk as a man of integrity</li>
+                          <li><strong>May 10, 1994</strong> - Mr. Mandela is sworn in as president of South Africa, making a speech of shared patriotism that summons South Africans' communal exhilaration in their land and their relief at being freed from the world's disapproval</li>
+                          <li><strong>June 1, 2004</strong> - Mr. Mandela says he will severely reduce his public activities so he can spend his remaining years resting and writing. A month shy of 86, he is increasingly frail and has trouble walking</li>
+                          <li><strong>Dec. 8, 2012</strong> - Mr. Mandela is hospitalized for nearly 19 days, being treated for pneumonia and having an operation for gallstones, government officials say. He will be hospitalized several times in 2013, as an increasingly ugly battle over his legacy and money erupts. </li>
+                          <li><strong>2013</strong> - Dies at the age of 95.</li>
+                      </ul>
+                  </div>
+                  <p>More to find out about this great man at <a id="tribute-link" href="https://en.wikipedia.org/wiki/Nelson_Mandela" target="_blank">Wikipedia Entry</a>.</p>
+                  <hr>
+              </div>
+          </body>
+      </html>
+      
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
